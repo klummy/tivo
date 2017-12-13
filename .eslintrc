@@ -1,0 +1,27 @@
+{
+    "extends": [
+        "plugin:jsx-a11y/recommended",
+        "eslint:recommended",
+        "standard",
+        "standard-react",
+        "plugin:jest/recommended"
+    ],
+    "rules":{
+        "sort-keys": "error",
+        "no-duplicate-imports":"error",
+        "import/order": ["error", {"newlines-between": "always"}],
+        "react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
+        "react/jsx-sort-props": ["error", {"ignoreCase": true}],
+        "react/jsx-closing-bracket-location": "error",
+        "react/jsx-first-prop-new-line": "error",
+        "jsx-a11y/anchor-is-valid": "off",
+        "no-console":"warn"
+    },
+    "plugins": [
+        "jest",
+        "jsx-a11y"
+    ],
+    "env": {
+        "jest": true
+    }
+}
