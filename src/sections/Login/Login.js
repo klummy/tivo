@@ -27,7 +27,7 @@ const Login = (context) => (
 
             <form
               onSubmit={(event) => loginFormHandler(event, context)}
-              style={{margin: '15px 0'}}
+              style={{margin: '40px 0'}}
             >
 
               <div className='input-field'>
