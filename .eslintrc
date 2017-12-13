@@ -15,7 +15,8 @@
         "react/jsx-closing-bracket-location": "error",
         "react/jsx-first-prop-new-line": "error",
         "jsx-a11y/anchor-is-valid": "off",
-        "no-console":"warn"
+        "no-console":"warn",
+        "jsx-a11y/label-has-for": "off"
     },
     "plugins": [
         "jest",
